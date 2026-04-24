@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Welcome to Life Hack or Urban Myth, have a fruitful time by gaining a smurge of street knowledge while enjoying your freetime. Press the &quot;Start&quot; button to begin."
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="155dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="128dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Start"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDisplay" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:fontFamily="cursive"
+        android:text='Users often struggle to distinguish between genuine productivity tips and urban myths that have gone viral. This app provides a "Life Hack or Urban Myth?" flashcard game to help users test their common sense and learn useful (and safe) real-world shortcuts.'
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="339dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="44dp"
+        android:fontFamily="cursive"
+        android:text="Life Heck or Urban Myth."
+        android:textColor="#9C27B0"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
